@@ -1,27 +1,132 @@
 <!DOCTYPE html>
-<!-- Doc type declaration tells browser the version of html we are using -->
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My first webpage"> 
-    <title>My first web page</title>
-    <link rel="icon" href="images/blue_lock_icon.PNG">
+    <title>Jordan Liang Art Blog</title>
+    <link rel="icon" href="images/jordan_blog_icon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" 
+    rel="stylesheet">
     <link rel="stylesheet" href="main.css" type="text/css">
-  </head>
-  <body>
-  <div class="navbar">
-    <img class="logo" src="images/Blue_Lock_Logo.png" alt="Blue lock logo">
-    <ul class="nav">
-        <li><a href="#characters">CHARACTERS</a></li>
-        <li><a href="#characters">CHARACTERS</a></li>
-        <li><a href="#characters">CHARACTERS</a></li>
-        <li><a href="#characters">CHARACTERS</a></li>
-        <li><a href="#characters">CHARACTERS</a></li>
-    </ul>
-    
-  </div>
-  </body>
+</head>
 
+<body>
+    <header>
+        <div class="banner">
+            <img src="images/banner1.png" alt="website banner" width="1920" height="600">
+            <h1 class="banner-text">Jordan Liang</h1>
+        </div>
+        <br>
+        <nav class="navigation" aria-label="primary-navigation">
+            <ul>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#material_list">Materials List</a></li>
+                <li><a href="#artwork_showcase">Artwork Showcase</a></li>
+                <li><a href="#contact_me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="about_me" class="about-me">
+            <hr>
+            <h2>About Me</h2>
+            <img class="right" src="images/kamado.jpg" alt="kamado family" width="300px" height="300px">
+
+            <p>Hi! I'm Jordan, an aspiring 
+                programmer and hobby artist!</p>
+
+            <p>Here are some basic facts about me:</p>
+            
+            <ul>
+                <li>Age: 22</li>
+                <li>Location: Australia</li>    
+                <li>Medium: Digital / Traditional</li>
+            </ul>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dicta, perspiciatis vero eius ipsam et eum quasi quis ipsa iste minus facere sit 
+                veniam veritatis. Eum deserunt aspernatur et quos dolor.</p>
+
+            <p>You can find my art on the following:</p>
+
+            <p>
+                <a style="text-decoration: none;"            
+                    href="https://www.instagram.com/jordyydraws" target="_blank"><img class="int_img" src="images/Instagram-Logo.png" 
+                    alt="ig_logo" title="ig_logo" width="70" height="40">
+                </a>
+                &nbsp;
+                <a style="text-decoration: none;" 
+                    href="https://twitter.com/jordyydraws" target="_blank"><img class="int_img" src="images/twitter-logo.png" 
+                    alt="twitter-logo" title="twitter-logo" width="40" height="40">
+                </a>        
+                &nbsp;&nbsp;
+                <a style="text-decoration: none;" 
+                    href="https://www.pixiv.net/en/users/74528560" target="_blank"><img class="int_img" src="images/pixiv-logo.png" 
+                    alt="pixiv-logo" title="pixiv-logo" width="90" height="35">
+                </a>
+            </p>
+        </article>
+
+        <hr>
+        <article id="material_list">
+            <h2>Materials</h2>
+            <p>I work within Digital and Traditional mediums.</p>
+            <div class="material-showcase">
+                <div class="box_digital_materials">
+                    <a style="text-decoration: none;" href="https://twitter.com/jordyydraws" target="_blank">
+                    <img src="images/kamvas13.PNG" alt="kamvas" width="550" height="400">
+                    <div class="overlay"><div class="text">Huion Kamvas 13</div></div>
+                    </a>
+                </div>
+                <div class="box_digital_materials">
+                    <a style="text-decoration: none;" href="https://twitter.com/jordyydraws" target="_blank">
+                    <img src="images/clipstudiopaint.PNG" alt="csp" width="576" height="400">
+                    <div class="overlay"><div class="text">Clip Studio Paint</div></div>
+                    </a>
+                </div>
+                <div class="box_traditional_materials">
+                    <a style="text-decoration: none;" href="https://twitter.com/jordyydraws" target="_blank">
+                    <img src="images/ohuhu.png" alt="csp" width="300" height="80">
+                    <div class="overlay"><div class="text">Ohuhu Markers</div></div>
+                    </a>
+                </div>
+                <div class="box_traditional_materials">
+                    <a style="text-decoration: none;" href="https://twitter.com/jordyydraws" target="_blank">
+                    <img src="images/copic.png" alt="csp" width="300" height="100">
+                    <div class="overlay"><div class="text">Copic Markers</div></div>
+                    </a>
+                </div>
+                <div class="box_traditional_materials">
+                    <a style="text-decoration: none;" href="https://twitter.com/jordyydraws" target="_blank">
+                    <img src="images/winsor-newton.jpg" alt="csp" width="300" height="200"></a>
+                </div>
+            </div>
+        </article>
+
+        <article id="artwork_showcase">
+            <h2>Artwork Showcase</h2>
+            <div class="artwork-showcase">
+                <div class="box_artwork">
+                    <a style="text-decoration: none;" href="https://twitter.com/jordyydraws" target="_blank">
+                        <img src="images/winsor-newton.jpg" alt="csp"></a>
+                </div>
+                <div class="box_artwork">2</div>
+                <div class="box_artwork">3</div>
+                <div class="box_artwork">4</div>
+                <div class="box_artwork">5</div>
+                <div class="box_artwork">6</div>
+            </div>
+
+        </article>
+
+        <article id="contact_me">
+            <h2>Contact Me</h2>
+        </article>
+    </main>
+    
+</body>
 </html>
